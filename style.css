@@ -1,0 +1,173 @@
+:root {
+  --bg: #ffffff;
+  --fg: #111111;
+  --muted: #666666;
+  --line: #d8d8d8;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", YuGothic, Arial, sans-serif;
+  overflow: hidden;
+}
+
+#signage {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% 35%, #fff 0, #fff 48%, #f8f8f8 100%);
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7vw;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(18px) scale(.985);
+  transition: opacity 1200ms ease, transform 1200ms ease;
+}
+.slide.is-active { opacity: 1; transform: translateY(0) scale(1); }
+
+.logo-mark {
+  width: clamp(84px, 13vw, 180px);
+  height: clamp(84px, 13vw, 180px);
+  border: 2px solid var(--fg);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(54px, 9vw, 120px);
+  line-height: 1;
+  margin-bottom: 28px;
+}
+
+a { color: inherit; }
+.eyebrow {
+  margin: 0 0 22px;
+  font-size: clamp(16px, 2vw, 30px);
+  letter-spacing: .22em;
+  color: var(--muted);
+}
+h1, h2 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: .06em;
+}
+h1 { font-size: clamp(82px, 17vw, 240px); }
+h2 { font-size: clamp(46px, 9vw, 150px); }
+.sub {
+  margin: 28px 0 0;
+  font-size: clamp(22px, 3.2vw, 52px);
+  letter-spacing: .12em;
+}
+.place {
+  margin: 16px 0 0;
+  font-size: clamp(13px, 1.5vw, 22px);
+  letter-spacing: .28em;
+  color: var(--muted);
+}
+
+.price-grid {
+  width: min(920px, 86vw);
+  margin-top: 42px;
+  border-top: 1px solid var(--line);
+}
+.price-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 20px;
+  align-items: baseline;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: clamp(24px, 4vw, 66px);
+}
+.price-label { text-align: left; font-weight: 600; }
+.price-value { font-variant-numeric: tabular-nums; letter-spacing: .03em; }
+.price-unit { font-size: .48em; color: var(--muted); }
+.note {
+  width: min(920px, 86vw);
+  margin: 28px 0 0;
+  font-size: clamp(12px, 1.4vw, 20px);
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.brand-list {
+  margin: 34px 0 0;
+  max-width: 980px;
+  font-size: clamp(15px, 1.9vw, 28px);
+  line-height: 1.8;
+  color: var(--muted);
+  letter-spacing: .08em;
+}
+
+.keyword-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  width: min(900px, 86vw);
+  margin-top: 42px;
+}
+.keyword {
+  border: 1px solid var(--fg);
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-size: clamp(17px, 2vw, 30px);
+}
+
+#fullscreenBtn {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  border: 1px solid var(--fg);
+  background: rgba(255,255,255,.8);
+  color: var(--fg);
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-size: 14px;
+  backdrop-filter: blur(8px);
+}
+body.is-fullscreen #fullscreenBtn { display: none; }
+
+@media (orientation: portrait) {
+  .slide { padding: 8vw 6vw; }
+  h1 { font-size: clamp(78px, 23vw, 210px); }
+  h2 { font-size: clamp(42px, 13vw, 120px); }
+  .price-row { font-size: clamp(25px, 6vw, 54px); }
+}
+
+/* あーるさいず実ロゴ */
+.shop-logo {
+  display: block;
+  object-fit: contain;
+  height: auto;
+  opacity: .98;
+}
+.shop-logo-large {
+  width: min(440px, 62vw);
+  max-height: 42vh;
+  margin-bottom: clamp(18px, 3vw, 42px);
+}
+.shop-logo-small {
+  width: min(170px, 26vw);
+  max-height: 18vh;
+  margin-bottom: clamp(18px, 3vw, 34px);
+}
+.slide-open h1 {
+  font-size: clamp(62px, 12vw, 180px);
+}
+@media (orientation: portrait) {
+  .shop-logo-large { width: min(420px, 72vw); max-height: 44vh; }
+  .shop-logo-small { width: min(160px, 30vw); }
+}

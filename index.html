@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>あーるさいず 店頭サイネージ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="signage" aria-live="polite">
+    <section class="slide slide-open is-active" data-slide="open">
+      <img src="assets/logo.svg" class="shop-logo shop-logo-large" alt="あーるさいず ロゴ" />
+      <h1>OPEN</h1>
+      <p class="sub">古着の販売と買取</p>
+    </section>
+
+    <section class="slide slide-price" data-slide="price">
+      <img src="assets/logo.svg" class="shop-logo shop-logo-small" alt="あーるさいず ロゴ" />
+      <p class="eyebrow">本日の参考価格</p>
+      <h2>金・プラチナ</h2>
+      <div class="price-grid" id="priceGrid"></div>
+      <p class="note" id="priceNote"></p>
+    </section>
+
+    <section class="slide slide-brands" data-slide="brands">
+      <img src="assets/logo.svg" class="shop-logo shop-logo-small" alt="あーるさいず ロゴ" />
+      <p class="eyebrow">買取強化中</p>
+      <h2 id="brandMain">FOXEY</h2>
+      <p class="brand-list" id="brandList"></p>
+    </section>
+
+    <section class="slide slide-season" data-slide="season">
+      <img src="assets/logo.svg" class="shop-logo shop-logo-small" alt="あーるさいず ロゴ" />
+      <p class="eyebrow">季節のお知らせ</p>
+      <h2 id="seasonTitle"></h2>
+      <div class="keyword-row" id="seasonKeywords"></div>
+    </section>
+
+    <section class="slide slide-closed" data-slide="closed">
+      <img src="assets/logo.svg" class="shop-logo shop-logo-small" alt="あーるさいず ロゴ" />
+      <p class="eyebrow">定休日</p>
+      <h2 id="closedText"></h2>
+      <p class="sub" id="businessHours"></p>
+    </section>
+
+    <section class="slide slide-campaign" data-slide="campaign">
+      <img src="assets/logo.svg" class="shop-logo shop-logo-small" alt="あーるさいず ロゴ" />
+      <p class="eyebrow">CAMPAIGN</p>
+      <h2 id="campaignTitle"></h2>
+      <p class="sub" id="campaignSub"></p>
+    </section>
+  </main>
+
+  <button id="fullscreenBtn" type="button">全画面</button>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
