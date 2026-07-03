@@ -171,3 +171,13 @@ body.is-fullscreen #fullscreenBtn { display: none; }
   .shop-logo-large { width: min(420px, 72vw); max-height: 44vh; }
   .shop-logo-small { width: min(160px, 30vw); }
 }
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+.open-screen,
+.hero,
+.logo-container {
+    text-align: center;
+}
