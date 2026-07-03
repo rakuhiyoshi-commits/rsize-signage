@@ -22,7 +22,7 @@ window.SIGNAGE_DATA = {
   ],
 
   season: {
-    title: "夏物・薄手アウター 買取強化中",
+    title: "夏物買取強化中",
     keywords: ["ワンピース", "リネン", "ブラウス", "サンダル", "カーディガン"]
   },
 
