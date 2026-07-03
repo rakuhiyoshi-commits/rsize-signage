@@ -14,7 +14,7 @@ window.SIGNAGE_DATA = {
       { label: "Pt900", value: "6,821", unit: "円/g" },
       { label: "Pt850", value: "6,306", unit: "円/g" }
     ],
-    disclaimer: "価格は更新時点の参考表示です。実際の買取価格は品位・重量・状態により異なります。"
+    disclaimer: "価格は更新時点の買取表示です。実際の買取価格は品位・重量・状態により異なります。"
   },
 
   brands: [
