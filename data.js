@@ -32,7 +32,7 @@ window.SIGNAGE_DATA = {
   },
 
   campaign: {
-    title: "査定無料・1点から歓迎",
+    title: "査定無料",
     sub: "予約不要｜その場で現金買取｜お気軽にお持ちください"
   }
 };
