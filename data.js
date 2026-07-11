@@ -27,7 +27,7 @@ window.SIGNAGE_DATA = {
   },
 
   closed: {
-    text: "毎週 日曜日",
+    text: "日曜日・祝日",
     hours: "営業時間 11:00 - 18:00"
   },
 
