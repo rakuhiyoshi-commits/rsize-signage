@@ -18,7 +18,7 @@ window.SIGNAGE_DATA = {
   },
 
   brands: [
-    "RON HARMAN", "RALPH LAUREN", "TOM FORD", "MONCLER", "ZARA", "Theory", "Deuxieme Classe", "DoCLASSE", "CHANEL", "HERMÈS", "ONWARD製品"
+    "RON HARMAN", "RALPH LAUREN", "ZARA", "Theory", "Deuxieme Classe", "TOM FORD", "DoCLASSE", "CHANEL", "HERMÈS", "ONWARD製品"
   ],
 
   season: {
