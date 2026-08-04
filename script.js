@@ -80,10 +80,10 @@
           await document.documentElement.requestFullscreen();
           document.body.classList.add('is-fullscreen');
         } else {
-          btn.textContent = 'Safariの共有 → ホーム画面に追加 推奨';
+          btn.textContent = 'rotRKK';
         }
       } catch (e) {
-        btn.textContent = 'Safariの共有 → ホーム画面に追加 推奨';
+        btn.textContent = 'rotRKK';
       }
     });
     document.addEventListener('fullscreenchange', () => {
