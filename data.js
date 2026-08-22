@@ -1,7 +1,7 @@
 // ここだけ書き換えれば表示内容を更新できます。
 // 金額は田中貴金属 RE:TANAKA リサイクル価格を確認して、手入力してください。
 window.SIGNAGE_DATA = {
-  slideSeconds: 6,
+  slideSeconds: 10,
   shopName: "あーるさいず",
   place: "YOKOHAMA HIYOSHI",
 
