@@ -22,7 +22,7 @@ window.SIGNAGE_DATA = {
   ],
 
   season: {
-    title: "バーバリー製品</br>買取強化",
+    title: "バーバリー製品<br>買取強化",
     keywords: ["ワンピース", "リネン", "ブラウス", "サンダル", "カーディガン"]
   },
 
