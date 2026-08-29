@@ -115,7 +115,7 @@ h2 { font-size: clamp(40px, 9vw, 150px); }
   flex-wrap: wrap;
   justify-content: center;
   gap: 14px;
-  width: min(900px, 86vw);
+  width: min(700px, 86vw);
   margin-top: 42px;
 }
 .keyword {
