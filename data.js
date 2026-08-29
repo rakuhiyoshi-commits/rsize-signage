@@ -22,8 +22,8 @@ window.SIGNAGE_DATA = {
   ],
 
   season: {
-    title: "バーバリー製品<br>買取強化",
-    keywords: ["ワンピース", "リネン", "ブラウス", "サンダル", "カーディガン"]
+    title: "バーバリー製品買取強化",
+    keywords: ["トレンチコート・バッグ・ワンピース"]
   },
 
   closed: {
