@@ -22,7 +22,7 @@ window.SIGNAGE_DATA = {
   ],
 
   season: {
-    title: "バーバリー製品買取強化",
+    title: "バーバリー買取強化",
     keywords: ["トレンチコート・バッグ・ワンピース"]
   },
 
