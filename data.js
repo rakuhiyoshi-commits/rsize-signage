@@ -9,9 +9,9 @@ window.SIGNAGE_DATA = {
     updatedAt: "2026年9月9日 9:30発表",
     source: "田中貴金属 RE:TANAKA リサイクル価格参考",
     items: [
-      { label: "K24", value: "21,427", unit: "円/g" },
+   { label: "K24", value: "21,427", unit: "円/g" },
       { label: "K18", value: "15,642", unit: "円/g" },
-      { label: "Pt900", value: "7,210, unit: "円/g" },
+      { label: "Pt900", value: "7,210", unit: "円/g" },
       { label: "Pt850", value: "6,669", unit: "円/g" }
     ],
     disclaimer: "上記は買取価格です。重さ×上記価格でお支払い。手数料無料。"
