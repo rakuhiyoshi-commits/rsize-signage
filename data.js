@@ -6,13 +6,13 @@ window.SIGNAGE_DATA = {
   place: "YOKOHAMA HIYOSHI",
 
   prices: {
-    updatedAt: "2026年9月14日 9:30発表",
+    updatedAt: "2026年9月15日 9:30発表",
     source: "田中貴金属 RE:TANAKA リサイクル価格参考",
     items: [
-   { label: "K24", value: "21,424", unit: "円/g" },
-      { label: "K18", value: "15,640", unit: "円/g" },
-      { label: "Pt900", value: "7,077", unit: "円/g" },
-      { label: "Pt850", value: "6,545", unit: "円/g" }
+   { label: "K24", value: "21,298", unit: "円/g" },
+      { label: "K18", value: "15,546", unit: "円/g" },
+      { label: "Pt900", value: "6,966", unit: "円/g" },
+      { label: "Pt850", value: "6,441", unit: "円/g" }
     ],
     disclaimer: "上記は買取価格です。重さ×上記価格でお支払い。手数料無料。"
   },
