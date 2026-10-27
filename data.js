@@ -6,7 +6,7 @@ window.SIGNAGE_DATA = {
   place: "YOKOHAMA HIYOSHI",
 
   prices: {
-    updatedAt: "2026年10月26日 9:30発表",
+    updatedAt: "2026年10月27日 9:30発表",
     source: "田中貴金属 RE:TANAKA リサイクル価格参考",
     items: [
    { label: "K24", value: "20,262", unit: "円/g" },
